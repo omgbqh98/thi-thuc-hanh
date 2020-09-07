@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let index =0;
+    function indexOf(number, array){
+        for (let i = 0; i < array.length; i++) {
+            if(number == array[i]){
+                return index= i;
+            }
+        }
+    }
+    let arr= [4,3,6,2,6];
+    if(indexOf(+prompt("input number"),arr)){
+        document.write("vị trí của number: " +index );
+    }else {
+        document.write("không nằm trong mảng");
+    }
+
+</script>
+</body>
+</html>
